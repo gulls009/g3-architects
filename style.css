@@ -1,0 +1,348 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Patrick+Hand&family=Poppins:wght@500&family=Work+Sans&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+body {
+    font-family: 'Work Sans', sans-serif;
+
+
+}
+
+/* .header {
+    padding: 50px 100px 0 100px;
+
+} */
+
+a {
+    text-decoration: none;
+
+}
+
+ul {
+    list-style-type: none;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-items li {
+    display: inline-block;
+}
+
+.nav-items li a {
+    margin-left: 35px;
+}
+
+
+/* banner styles ................................*/
+
+.header {
+    background-color: #f4eee6;
+}
+
+.header-details {
+    padding-top: 50px;
+}
+
+.container {
+    padding: 0 240px;
+}
+
+.header-banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.banner-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 862px;
+    height: 225px;
+    text-align: center;
+    margin-top: 150px;
+}
+
+.banner-title {
+    font-weight: 700;
+    font-size: 64px;
+    color: #131313;
+}
+
+.banner-paragraph {
+    width: 868px;
+    height: 52px;
+    color: #727272;
+}
+
+.button {
+    width: 160px;
+    height: 50px;
+    border: none;
+    background: #FF900E;
+    border-radius: 8px;
+    color: white;
+    font-weight: 600;
+}
+
+.banner-pic img {
+    width: 1000px;
+    height: 550px;
+    padding: 50px 240px 50px 240px;
+
+
+}
+
+
+/* main style................................................... */
+
+.main-fetures {
+    margin-top: 60px;
+
+}
+
+.features img {
+    width: 200px;
+    height: auto;
+}
+
+.features {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    margin-bottom: 120px;
+}
+
+.features-title-style1 {
+    font-weight: 500;
+    font-size: 45px;
+    color: #727272;
+}
+
+.features-title-style2 {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+
+.features-title-style3 {
+    font-weight: 700;
+    font-size: 45px;
+    color: #FF900E;
+}
+
+.features-paragraph {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+
+
+
+/* Love Features Style.................... */
+.love-features {
+    display: flex;
+    gap: 60px;
+    margin-bottom: 120px;
+}
+
+.love-features-details {
+    width: 600px;
+}
+
+.love-features-title {
+    font-weight: 400;
+    font-size: 30px;
+    color: #131313;
+    margin-bottom: 15px;
+}
+
+.love-features-paragraph {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-bottom: 20px;
+}
+
+.mini-details {
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.box {
+
+    width: 450px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+}
+
+.mini-details-title {
+    font-weight: 600;
+    font-size: 20px;
+    color: #131313;
+    margin-bottom: 10px;
+}
+
+.mini-details-paragraph {
+    font-weight: 400;
+    font-size: 15px;
+    color: #727272;
+}
+
+.love-features-pic img {
+    width: 500px;
+    height: auto;
+}
+
+/* Facts Style........................................... */
+
+.facts {
+    margin-bottom: 200px;
+}
+
+.facts-details {
+    margin-bottom: 70px;
+    width: 400px;
+}
+
+.facts-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    margin-bottom: 10px;
+}
+
+.facts-paragraph {
+    font-weight: 400;
+    font-size: 16px;
+
+    color: #727272;
+}
+
+.facts-featurs-details {
+    border: 1px solid orange;
+    width: 120px;
+    height: auto;
+    padding: 30px;
+    border-radius: 8px;
+}
+
+.facts-featurs {
+    display: flex;
+    gap: 90px;
+    justify-content: center;
+}
+
+.facts-featurs-details {
+    text-align: center;
+}
+
+.facts-featurs-paragraph {
+    font-weight: 400;
+    font-size: 12px;
+    color: #727272;
+}
+
+/* Spansors stle.................................. */
+
+.sponspor-details {
+    display: flex;
+
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+
+.sponspor-pics {
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+
+.sponspor-pics img {
+    filter: invert(78%) sepia(0%) saturate(0%) hue-rotate(84deg) brightness(93%) contrast(90%);
+}
+
+.spansor-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    margin-bottom: 15px;
+}
+
+.spansor-paragraph {
+    font-weight: 400;
+    font-size: 16px;
+
+
+    color: #727272;
+
+}
+
+
+
+/* Contact................................ */
+.contact {
+    margin-top: 100px;
+    text-align: center;
+    border: 1px solid rgb(228, 247, 247);
+    background-color: rgb(251, 250, 249);
+    border-radius: 23px;
+    margin-bottom: 150px;
+}
+
+.contact-title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #000066;
+    margin-bottom: 10px;
+}
+
+.phone,
+.email,
+.location {
+    font-weight: 700;
+    margin-bottom: 10px;
+
+}
+
+
+
+/* Footer styles......................................... */
+
+.footer-styles {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-details {
+    margin-top: 10px;
+    text-align: center;
+    border: 1px solid rgb(228, 247, 247);
+    background-color: rgb(245, 182, 105);
+    border-radius: 23px;
+    margin-bottom: 150px;
+    width: 1440px;
+    height: 100px;
+
+    font-weight: 400;
+    font-size: 20px;
+    color: #424242;
+
+}
