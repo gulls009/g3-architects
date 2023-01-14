@@ -92,6 +92,14 @@ ul {
     border-radius: 8px;
     color: white;
     font-weight: 600;
+    transition: .2s;
+
+}
+
+.button:hover {
+    width: 200px;
+    height: 60px;
+
 }
 
 .banner-pic img {
@@ -247,6 +255,7 @@ ul {
 
 .facts-featurs-details {
     text-align: center;
+    transition: .4s;
 }
 
 .facts-featurs-paragraph {
@@ -254,6 +263,12 @@ ul {
     font-size: 12px;
     color: #727272;
 }
+
+.facts-featurs-details:hover {
+    background-color: #00ff99;
+    rotate: 45deg;
+}
+
 
 /* Spansors stle.................................. */
 
