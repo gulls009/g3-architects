@@ -411,7 +411,7 @@ ul {
 
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 576px) {
     /* body {
         width: 100%;
     } */
@@ -433,7 +433,7 @@ ul {
     }
 
     .container {
-        padding: 10px;
+        padding: 5px;
     }
 
 
@@ -531,7 +531,7 @@ ul {
     } */
 
     .facts-paragraph {
-        ...................................... width: 100px;
+        width: 100px;
     }
 
     .footer-details {
